@@ -35,6 +35,11 @@
        "matches": ["https://*.fsu.edu/*"]
     },
     {
+      "css": ["canvas.css"],
+      "js": ["canvas.js"],
+       "matches": ["https://*.lorainccc.edu/*"]
+    },
+    {
 
       "css": ["webwork.css"],
       "matches": ["https://webwork.uncc.edu/*"]
