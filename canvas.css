@@ -6,7 +6,7 @@
 
 :root
 {
-  --ic-brand-global-nav-menu-item__text-color--active: #000000 !important
+  --ic-brand-global-nav-menu-item__text-color--active: #303640 !important
 }
 /* GENERAL */
 html,
@@ -44,7 +44,7 @@ div.cvphu_dnnz,
 div.cvphu_caGd,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_dnnz.eHiXd_doqw.eHiXd_bPzo.eHiXd_cuTS.eHiXd_wWyq
 {
-  background-color: black;
+  background-color: #303640;
   color: white;
 }
 
@@ -62,13 +62,13 @@ div.event-details-timestring table tbody tr:hover,
 td.fc-day-number.fc-mon.fc-today.fc-state-highlight,
 td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 {
-background-color: black !important;
+background-color: #303640 !important;
 }
 
 /* alert banner */
 div.alert
 {
-  background-color: black;
+  background-color: #303640;
   color: #FFCCCB;
   border: 1px solid #FFCCCB;
   text-align: center;
@@ -174,15 +174,10 @@ div#upload_media_tab,
 header.panel,
 div.rubric_title
 {
-  background-color: black !important;
+  background-color: #303640 !important;
   color: white !important;
 }
-ul.collectionViewItems.ig-list li div.ig-row,
-ul.collectionViewItems.ig-list li div.ig-row a.ig-title
-{
-  background-color: white !important;
-  color: black !important;
-}
+
 div.context_module
 {
   border: 2px solid #606060 !important;
@@ -252,7 +247,7 @@ div.event-details p
 }
 div.ic-DashboardCard svg
 {
-  color: black !important; /* !important is required AND because the icon is inverted, the color black is needed */
+  #303640 !important; /* !important is required AND because the icon is inverted, the color black is needed */
 }
 div.ic-DashboardCard__header_content,
 div.ic-DashboardCard
@@ -278,7 +273,7 @@ span.sJGfW_blJt:hover
 }
 span.sJGfW_dnnz svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
 {
-  color: black !important;
+  #303640 !important;
 }
 h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
 {
@@ -331,7 +326,7 @@ i.icon-trash::before
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path,
 button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path
 {
-  fill: black !important;
+  fill: #303640 !important;
 }
 table#access_tokens.summary thead tr th
 {
@@ -340,7 +335,7 @@ table#access_tokens.summary thead tr th
 
 table.summary td, table.summary tbody th
 {
-  background-color: #000000 !important;
+  background-color: #303640 !important;
 }
 
 span.fc-icon::after
@@ -372,25 +367,145 @@ ol.list_3FFz li div
 
 thead th
 {
-  background: black !important;
-  background-color: black !important;
+  background: #303640 !important;
+  /*background-#303640 !important;*/
 }
 
 /* DISCUSSION ENTRIES */
 .discussion_entry
 {
-  background: black !important;
+  background: #303640 !important;
 }
 .discussion_entries entry
 {
-  background: black !important;
-  border: 1px solid black !important;
+  background: #303640 !important;
+  border: 1px solid #303640 !important;
 }
 .replies
 {
-  border-left: solid black 16px !important;
+  border-left: solid #303640 16px !important;
 }
 
+/* Discussions page*/
+div.ic-discussion-row {
+  background-color: #303640;
+}
+
+
+div.discussion-title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline-width: 0.125rem;
+  outline-color: #e81e1e00;
+  outline-style: solid;
+  color: #000000;
+}
+
+div.pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper {
+  padding: 10px;
+  border: 1px solid #C7CDD1;
+  border-bottom: 0px;
+  background-color: #303640;
+}
+
+div.discussion-vbox {
+  display: block;
+  background-color: #303640;
+  color: #a6a6a6;
+  cursor: text;
+  border: 1px solid #d4d5d7;
+  margin: 15px 0;
+  transition: border-color 0.2s;
+  padding: 6px 12px;
+}
+
+div#outcomes.ui-tabs-panel, div#outcomes.ui-tabs {
+    display: block;
+    padding: 1em 1.4em;
+    background-color: #303640;
+    color: #ffffff;
+    border-width: 0 1px 1px 1px;
+    border-radius: 0;
+}
+
+/*.ui-widget-content {
+  border: 1px solid #aaa;
+  background: #fff;
+  color: rgba(255,255,255,.9);
+}*/
+
+div#discussion-toolbar.toolbarView {
+  background: #c4cad4;
+  min-height: 50px;
+}
+
+span.discussion-points {
+  color: #0f8ed8;
+}
+
+div.ic-discussion-row-container {
+  color: #ffffff;
+}
+div.discussion-reply-action {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+
+div.ic-item-row__content-col.ic-discussion-row__content.last-reply-at {
+  color: #a6a6a6;
+}
+
+div.canvas-rce__skins--root {
+  background-color: #303640;
+}
+
+div.discussion-pubdate.hide-if-collapsed {
+  font-size: 11px;
+  font-size: .6875rem;
+  color: #a6a6a6;
+  line-height: 23px;
+}
+
+div.discussion-pubdate {
+  font-size: 11px;
+  font-size: .6875rem;
+  color: #128ed3;
+  line-height: 23px;
+}
+
+div.discussion-rate-action {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+
+a.discussion-reply-action.discussion-reply-box {
+  display: block;
+  background-color: #303640;
+  cursor: text;
+  border: 1px solid #d4d5d7;
+  margin: 15px 0;
+  transition: border-color 0.2s;
+  padding: 6px 12px;
+}
+
+.discussion-title {
+  color: #a6a6a6;
+}
+
+
+a.discussion-reply-action, a.discussion-rate-action {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+
+div.unpinned-discussions-v2__wrapper {
+  padding: 10px;
+  border: 1px solid #C7CDD1;
+  border-bottom: 0px;
+  background-color: #303640;
+}
 /* some button elements, icons, annoying text that won't turn white, etc */
 span.eHiXd_caGd,
 h2.ig-header-title a.element_toggler.accessible-toggler,
@@ -510,6 +625,11 @@ div.headerBar
   border-bottom-right-radius: 25px;
 }
 
+div.discussions-v2__wrapper
+{
+  background-color: #303640 !important;
+}
+
 
 div#ag-list.item-group-container
 {
@@ -539,15 +659,37 @@ div.ef-item-row.ef-item-selected
 thead tr:hover,
 tr.edit_data_row
 {
-  background-color: #000 !important;
+  background-color: #303640 !important;
 }
 
 /* last attempt details
  table.summary
  {
-   color: black !important;
+   #303640 !important;
  }*/
 
+
+ div#assignments.ui-tabs {
+  display: block;
+  padding: 1em 1.4em;
+  background-color: #303640;
+  border-width: 0 1px 1px 1px;
+  border-radius: 0;
+}
+
+div#assignments.ui-tabs-panel {
+  display: block;
+  padding: 1em 1.4em;
+  background-color: #303640;
+  border-width: 0 1px 1px 1px;
+  border-radius: 0;
+}
+
+div#content.ui-widget-content {
+  border: 1px solid #aaa;
+  background: #fff;
+  color: #a1a1a2;
+}
 
 /* custom notification color */
 span.ic-DashboardCard__action-badge,
@@ -560,7 +702,15 @@ span.menu-item__badge
 
 div.discussion-fyi
 {
-  color: #CCC;
+  color: #303640;
+}
+div.unpinned-discussions-v2__wrapper
+{
+  color: #303640;
+}
+div.discussions-v2__container-image
+{
+  color: #303640;
 }
 
 tr.date.related td, #syllabus
@@ -648,7 +798,7 @@ tr.comments,
 tr.comments:hover,
 table.score_details_table tbody tr td
 {
-  background-color: black !important;
+  background-#303640 !important;
 }
 
 
@@ -699,7 +849,7 @@ span.fLzZc_bGBk.fLzZc_fSpQ.fLzZc_doqw.fLzZc_bQpq.eJkkQ_bIuM div
 
 span.fCrpb_bGBk.fCrpb_egrg
 {
-  color: black !important;
+  #303640 !important;
 }
 
 div.rubric_title
@@ -726,7 +876,7 @@ ul#section-tabs li.section a.active
 /* messages list */
 ul.messages.unstyled.collectionViewItems li
 {
-  background-color: black !important;
+  background-#303640 !important;
   color: white !important;
 }
 
@@ -755,7 +905,7 @@ div.ac-result-container,
 ul.al-options li,
 ul.al-options
 {
-  background-color: black !important;
+  background-#303640 !important;
 }
 
 li.ac-result:hover,
@@ -776,7 +926,7 @@ ul.al-option li a
 
 ::-webkit-scrollbar-track
 {
-  background-color: black !important;
+  background-#303640 !important;
 }
 
 ::-webkit-scrollbar-thumb

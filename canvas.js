@@ -6,7 +6,7 @@ function removeThemeColor()
   var head = document.getElementsByTagName('HEAD')[0];
   var meta = document.createElement('meta');
   meta.setAttribute('name', 'theme-color')
-  meta.content = "#000000";
+  meta.content = "#303640";
   head.appendChild(meta);
 }
 
