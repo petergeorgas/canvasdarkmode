@@ -65,6 +65,7 @@ td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 background-color: #303640 !important;
 }
 
+
 /* alert banner */
 div.alert
 {
@@ -178,6 +179,11 @@ div.rubric_title
   color: white !important;
 }
 
+/* Calendar Current Day Highlight */
+td.fc-state-highlight { 
+  background-color: #869096 !important;
+}
+
 div.context_module
 {
   border: 2px solid #606060 !important;
@@ -187,6 +193,7 @@ div.item-group-container
 {
   border-style: none !important;
 }
+
 
 div.ic-notification__content,
 a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end,
@@ -202,6 +209,10 @@ td.fc-axis.fc-widget-content span
   color: white !important;
 }
 
+/* Make the Inbox look nice */
+li {
+  background-color: #303640 !important ;
+}
 
 
 a.ui-tabs-anchor,
@@ -457,6 +468,10 @@ div.ic-item-row__content-col.ic-discussion-row__content.last-reply-at {
   color: #a6a6a6;
 }
 
+td.fc-state-highlight{
+  background: #b9b4b4;
+}
+
 div.canvas-rce__skins--root {
   background-color: #303640;
 }
@@ -479,6 +494,7 @@ div.discussion-rate-action {
   color: #a6a6a6;
   text-decoration: none;
 }
+
 
 a.discussion-reply-action.discussion-reply-box {
   display: block;
