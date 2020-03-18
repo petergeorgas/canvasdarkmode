@@ -166,6 +166,18 @@ article#browser-action-article
   padding-bottom: 30px
 }
 
+article#browser-action-article2
+{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-top: 10px;
+  display: inline-block;
+  padding-bottom: 30px
+}
+
 
 .three-fourths-font
 {
