@@ -6,7 +6,7 @@
 
 :root
 {
-  --ic-brand-global-nav-menu-item__text-color--active: #303640 !important
+  --ic-brand-global-nav-menu-item__text-color--active: var(--canvasdarkmode-theme-used) !important
 }
 /* GENERAL */
 html,
@@ -44,7 +44,7 @@ div.cvphu_dnnz,
 div.cvphu_caGd,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_dnnz.eHiXd_doqw.eHiXd_bPzo.eHiXd_cuTS.eHiXd_wWyq
 {
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   color: white;
 }
 
@@ -62,14 +62,14 @@ div.event-details-timestring table tbody tr:hover,
 td.fc-day-number.fc-mon.fc-today.fc-state-highlight,
 td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 {
-background-color: #303640 !important;
+background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 
 /* alert banner */
 div.alert
 {
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   color: #FFCCCB;
   border: 1px solid #FFCCCB;
   text-align: center;
@@ -175,12 +175,12 @@ div#upload_media_tab,
 header.panel,
 div.rubric_title
 {
-  background-color: #303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
   color: white !important;
 }
 
 /* Calendar Current Day Highlight */
-td.fc-state-highlight { 
+td.fc-state-highlight {
   background-color: #869096 !important;
 }
 
@@ -211,7 +211,7 @@ td.fc-axis.fc-widget-content span
 
 /* Make the Inbox look nice */
 li {
-  background-color: #303640 !important ;
+  background-color: var(--canvasdarkmode-theme-used) !important ;
 }
 
 
@@ -258,7 +258,7 @@ div.event-details p
 }
 div.ic-DashboardCard svg
 {
-  #303640 !important; /* !important is required AND because the icon is inverted, the color black is needed */
+  color: var(--canvasdarkmode-theme-used) !important; /* !important is required AND because the icon is inverted, the color black is needed */
 }
 div.ic-DashboardCard__header_content,
 div.ic-DashboardCard
@@ -284,7 +284,7 @@ span.sJGfW_blJt:hover
 }
 span.sJGfW_dnnz svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
 {
-  #303640 !important;
+  color: var(--canvasdarkmode-theme-used) !important;
 }
 h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
 {
@@ -337,7 +337,7 @@ i.icon-trash::before
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path,
 button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path
 {
-  fill: #303640 !important;
+  fill: var(--canvasdarkmode-theme-used) !important;
 }
 table#access_tokens.summary thead tr th
 {
@@ -346,7 +346,7 @@ table#access_tokens.summary thead tr th
 
 table.summary td, table.summary tbody th
 {
-  background-color: #303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 span.fc-icon::after
@@ -378,28 +378,28 @@ ol.list_3FFz li div
 
 thead th
 {
-  background: #303640 !important;
+  background: var(--canvasdarkmode-theme-used) !important;
   /*background-#303640 !important;*/
 }
 
 /* DISCUSSION ENTRIES */
 .discussion_entry
 {
-  background: #303640 !important;
+  background: var(--canvasdarkmode-theme-used) !important;
 }
 .discussion_entries entry
 {
-  background: #303640 !important;
-  border: 1px solid #303640 !important;
+  background: var(--canvasdarkmode-theme-used) !important;
+  border: 1px solid var(--canvasdarkmode-theme-used) !important;
 }
 .replies
 {
-  border-left: solid #303640 16px !important;
+  border-left: solid var(--canvasdarkmode-theme-used) 16px !important;
 }
 
 /* Discussions page*/
 div.ic-discussion-row {
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
 }
 
 
@@ -418,12 +418,12 @@ div.pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper {
   padding: 10px;
   border: 1px solid #C7CDD1;
   border-bottom: 0px;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
 }
 
 div.discussion-vbox {
   display: block;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   color: #a6a6a6;
   cursor: text;
   border: 1px solid #d4d5d7;
@@ -435,7 +435,7 @@ div.discussion-vbox {
 div#outcomes.ui-tabs-panel, div#outcomes.ui-tabs {
     display: block;
     padding: 1em 1.4em;
-    background-color: #303640;
+    background-color: var(--canvasdarkmode-theme-used);
     color: #ffffff;
     border-width: 0 1px 1px 1px;
     border-radius: 0;
@@ -473,7 +473,7 @@ td.fc-state-highlight{
 }
 
 div.canvas-rce__skins--root {
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
 }
 
 div.discussion-pubdate.hide-if-collapsed {
@@ -498,7 +498,7 @@ div.discussion-rate-action {
 
 a.discussion-reply-action.discussion-reply-box {
   display: block;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   cursor: text;
   border: 1px solid #d4d5d7;
   margin: 15px 0;
@@ -520,7 +520,7 @@ div.unpinned-discussions-v2__wrapper {
   padding: 10px;
   border: 1px solid #C7CDD1;
   border-bottom: 0px;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
 }
 /* some button elements, icons, annoying text that won't turn white, etc */
 span.eHiXd_caGd,
@@ -643,7 +643,7 @@ div.headerBar
 
 div.discussions-v2__wrapper
 {
-  background-color: #303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 
@@ -675,7 +675,7 @@ div.ef-item-row.ef-item-selected
 thead tr:hover,
 tr.edit_data_row
 {
-  background-color: #303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 /* last attempt details
@@ -688,7 +688,7 @@ tr.edit_data_row
  div#assignments.ui-tabs {
   display: block;
   padding: 1em 1.4em;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   border-width: 0 1px 1px 1px;
   border-radius: 0;
 }
@@ -696,7 +696,7 @@ tr.edit_data_row
 div#assignments.ui-tabs-panel {
   display: block;
   padding: 1em 1.4em;
-  background-color: #303640;
+  background-color: var(--canvasdarkmode-theme-used);
   border-width: 0 1px 1px 1px;
   border-radius: 0;
 }
@@ -718,15 +718,15 @@ span.menu-item__badge
 
 div.discussion-fyi
 {
-  color: #303640;
+  color: var(--canvasdarkmode-theme-used);
 }
 div.unpinned-discussions-v2__wrapper
 {
-  color: #303640;
+  color: var(--canvasdarkmode-theme-used);
 }
 div.discussions-v2__container-image
 {
-  color: #303640;
+  color: var(--canvasdarkmode-theme-used);
 }
 
 tr.date.related td, #syllabus
@@ -814,7 +814,7 @@ tr.comments,
 tr.comments:hover,
 table.score_details_table tbody tr td
 {
-  background-#303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 
@@ -865,7 +865,7 @@ span.fLzZc_bGBk.fLzZc_fSpQ.fLzZc_doqw.fLzZc_bQpq.eJkkQ_bIuM div
 
 span.fCrpb_bGBk.fCrpb_egrg
 {
-  #303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 div.rubric_title
@@ -892,7 +892,7 @@ ul#section-tabs li.section a.active
 /* messages list */
 ul.messages.unstyled.collectionViewItems li
 {
-  background-#303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
   color: white !important;
 }
 
@@ -921,7 +921,7 @@ div.ac-result-container,
 ul.al-options li,
 ul.al-options
 {
-  background-#303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 li.ac-result:hover,
@@ -942,12 +942,12 @@ ul.al-option li a
 
 ::-webkit-scrollbar-track
 {
-  background-#303640 !important;
+  background-color: var(--canvasdarkmode-theme-used) !important;
 }
 
 ::-webkit-scrollbar-thumb
 {
   height: 100px;
-  background-color: #404040 !important;
+  background-color: #AAA !important;
   border-radius: 48px !important;
 }

@@ -4,11 +4,7 @@
   <head>
     <title>Dark Mode for Canvas</title>
     <link href="popup.css" rel="stylesheet"/>
-    <script>
-      function swapStyleSheet(sheet){
-        document.getElementById('pagestyle').setAttribute('href', sheet);
-      }
-      </script>
+    <script src="popup.js"></script>
   </head>
 
   <body id="browser-action-body" class="user-selection-blocked">
@@ -47,7 +43,7 @@
       <h2>Select Theme</h2>
 
       <a draggable="false">
-        <button onclick="swapStyleSheet('lightsout.css')">
+        <button id="lightsOut">
           <i class="material-icons-outlined">star</i>
           <br>
           Lights Out
@@ -55,7 +51,7 @@
       </a>
 
       <a draggable="false" >
-        <button onclick="swapStyleSheet('canvas.css')">
+        <button id="dark">
           <i class="material-icons-outlined">star_half</i>
           <br>
           Dark
