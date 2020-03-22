@@ -32,16 +32,25 @@
     {
       "css": ["canvas.css"],
       "js": ["canvas.js"],
+      "lightsoutCSS" : ["lightsout.css"],
+      "lightsoutJS": ["lightsout.js"],
+      "popupJS": ["popup.js"],
       "matches": ["https://*.instructure.com/*"]
     },
     {
       "css": ["canvas.css"],
       "js": ["canvas.js"],
+      "lightsoutCSS" : ["lightsout.css"],
+      "lightsoutJS": ["lightsout.js"],
+      "popupJS": ["popup.js"],
        "matches": ["https://*.fsu.edu/*"]
     },
     {
       "css": ["canvas.css"],
       "js": ["canvas.js"],
+      "lightsoutCSS" : ["lightsout.css"],
+      "lightsoutJS": ["lightsout.js"],
+      "popupJS": ["popup.js"],
        "matches": ["https://canvas.lorainccc.edu/*"]
     },
     {
